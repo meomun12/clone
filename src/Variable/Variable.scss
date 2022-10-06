@@ -1,0 +1,15 @@
+$blackColor: rgba(24, 24, 24, 24);
+$whiteColor: white;
+$redColor: rgba(175, 2, 2, 2);
+$titlefont: Arial, Helvetica, sans-serif;
+
+@mixin buttonStyle($color, $font-size) {
+  width: 200px;
+  height: 40px;
+  background-color: $redColor;
+  border-radius: 8px;
+  border: none;
+  color: $whiteColor;
+  font-size: 25px;
+  margin-top: 20px;
+}
